@@ -1,16 +1,17 @@
+
 name: Build React App (Experiment-3.1)
 
 on:
   push:
     branches:
-      - main
+      - master
     paths:
-      - 'React-Projects/Experiment-3.1/**'
+      - 'react-project/exp-3.1/**'
   pull_request:
     branches:
-      - main
+      - master
     paths:
-      - 'React-Projects/Experiment-3.1/**'
+      - 'react-project/exp-3.1/**'
 
 jobs:
   build:
