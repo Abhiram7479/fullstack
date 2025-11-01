@@ -2,6 +2,7 @@
 name: Build React App (Experiment-3.1)
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
